@@ -2,9 +2,9 @@
 
 baseurl = "https://personal-resume-8c75f.firebaseapp.com"
 languageCode = "en-us"
-title = "John Doe Resume"
+title = "Cameron Boy Resume"
 theme = "orbit"
-googleAnalytics = "UA-XXXXXXX-Y"
+googleAnalytics = "UA-75773019-1"
 
 # Do not build files for websites. Need them? Set to false
 # disableRSS = true
@@ -16,8 +16,8 @@ disableKinds=["404","RSS","sitemap"]
 [params]
 
 # Meta
-    description = "Hugo Responsive Resume/CV Theme for Developers"
-    author = "Pavel Kanyshev"
+    description = "Resume for Cameron Boy"
+    author = "Cameron Boy"
 
 # Theme styles
 
@@ -26,14 +26,14 @@ disableKinds=["404","RSS","sitemap"]
     # are available. Also the source LESS files are included so
     # it’s quick and easy to change the styling and colour scheme.
 
-    styles = "styles-2.css"
+    styles = "styles-6.css"
 
 # Sidebar sections
 
     # Profile section
     [params.profile]
-        name = "John Doe"
-        tagline = "Full Stack Developer"
+        name = "Cameron Boy"
+        tagline = "Unabashed Data Nerd"
         avatar = "profile.png"
 
     # Contact section
@@ -43,38 +43,38 @@ disableKinds=["404","RSS","sitemap"]
         [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
-        url = "mailto: yourname@email.com"
-        title = "john.doe@website.com"
+        url = "mailto: camerondavidboy@gmail.com"
+        title = "camerondavidboy@gmail.com"
 
         [[params.contact.list]]
         class = "phone"
         icon = "fa-phone"
-        url = "tel:+1234567890"
-        title = "+1234567890"
+        url = "tel:+19526078240"
+        title = "+19526078240"
 
         [[params.contact.list]]
         class = "website"
         icon = "fa-globe"
-        url = "//portfoliosite.com"
-        title = "portfoliosite.com"
+        url = "cameronboy.com"
+        title = "cameronboy.com"
 
         [[params.contact.list]]
         class = "linkedin"
         icon = "fa-linkedin"
-        url = "//linkedin.com/in/johndoe"
-        title = "linkedin.com/in/johndoe"
+        url = "//linkedin.com/in/cameronboy"
+        title = "linkedin.com/in/cameronboy"
 
         [[params.contact.list]]
         class = "github"
         icon = "fa-github"
-        url = "//github.com/username"
-        title = "github.com/username"
+        url = "//github.com/cameronboy"
+        title = "github.com/cameronboy"
 
         [[params.contact.list]]
         class = "twitter"
         icon = "fa-twitter"
-        url = "//twitter.com/username"
-        title = "@twittername"
+        url = "//twitter.com/cboyrun"
+        title = "@caboyrun"
 
     # Education section
     [params.education]
@@ -82,18 +82,19 @@ disableKinds=["404","RSS","sitemap"]
         title = "Education"
 
         [[params.education.list]]
-        degree = "MSc in Computer Science"
-        college = "University of London"
-        dates = "2006 - 2010"
+        degree = "BSc in Finance"
+        college = "University of Minnesota"
+        dates = "2009 - 2013"
 
         [[params.education.list]]
-        degree = "BSc in Applied Mathematics"
-        college = "Bristol University"
-        dates = "2007 - 2011"
+        degree = "BSc in MIS"
+        college = "University of Minnesota"
+        dates = "2009 - 2013"
+
 
     # Languages section
     [params.language]
-        enable = true
+        enable = false
         title = "Languages"
 
         [[params.language.list]]
@@ -114,13 +115,13 @@ disableKinds=["404","RSS","sitemap"]
         title = "Interests"
 
         [[params.interests.list]]
-        interest = "Climbing"
+        interest = "Learning"
 
         [[params.interests.list]]
-        interest = "Snowboarding"
+        interest = "Weightlifting"
 
         [[params.interests.list]]
-        interest = "Cooking"
+        interest = "MotoGP"
 
 # Main body sections
 
@@ -196,28 +197,24 @@ disableKinds=["404","RSS","sitemap"]
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "Python & Django"
-        level = "98%"
-
-        [[params.skills.list]]
-        skill = "Javascript & jQuery"
-        level = "98%"
-
-        [[params.skills.list]]
-        skill = "Angular"
+        skill = "Tableau"
         level = "95%"
 
         [[params.skills.list]]
-        skill = "HTML5 & CSS"
-        level = "95%"
+        skill = "Python"
+        level = "50%"
 
         [[params.skills.list]]
-        skill = "Ruby on Rails"
-        level = "75%"
+        skill = "R"
+        level = "50%"
 
         [[params.skills.list]]
-        skill = "Sketch & Photoshop"
-        level = "60%"
+        skill = "Tidyverse - R"
+        level = "45%"
+
+        [[params.skills.list]]
+        skill = "Pandas - Python"
+        level = "45%"
 
     # Footer section
 
@@ -229,4 +226,4 @@ disableKinds=["404","RSS","sitemap"]
     # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
 
     [params.footer]
-        copyright = ""
+        copyright = "Cameron Boy"
