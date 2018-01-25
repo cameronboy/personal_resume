@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "http://example.org/"
+baseurl = "https://personal-resume-8c75f.firebaseapp.com"
 languageCode = "en-us"
 title = "John Doe Resume"
 theme = "orbit"
