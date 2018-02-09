@@ -43,11 +43,11 @@ disableKinds=["404","RSS","sitemap"]
         url = "mailto: camerondavidboy@gmail.com"
         title = "email"
 
-        [[params.contact.list]]
-        class = "phone"
-        icon = "fa-phone"
-        url = "tel:+19526078240"
-        title = "+19526078240"
+        # [[params.contact.list]]
+        # class = "phone"
+        # icon = "fa-phone"
+        # url = "tel:+19526078240"
+        # title = "+19526078240"
 
         [[params.contact.list]]
         class = "website"
@@ -137,7 +137,7 @@ disableKinds=["404","RSS","sitemap"]
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "Data Analyst digging into the realm of data science through machine learning and python.  Over the last couple of years I have been working as an analyst for a number of different entities and developed a keen interest in machine learning & data science. "
+        summary = "Data Analyst digging into the realm of data science through machine learning, python, and R.  Over the last couple of years I have been working as an analyst for a number of different organizations and developed a keen interest in machine learning & data science."
 
     # Experiences section
     [params.experiences]
@@ -149,7 +149,7 @@ disableKinds=["404","RSS","sitemap"]
         position = "Finance Data Analyst"
         dates = "2017 - Present"
         company = "Johns Manville, Denver"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        details = "New analyst team within the finance department.\n - Working with Tableau to improve & automate a lot of finance deliverables\n - Go-to SQL person on the team - Working to introduce Python & R to the mix as well."
 
         [[params.jobs.list]]
         position = "Data Analyst"
