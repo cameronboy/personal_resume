@@ -4,7 +4,7 @@ baseurl = "https://resume.cameronboy.com/"
 languageCode = "en-us"
 
 theme = "orbit"
-googleAnalytics = "UA-75773019-1"
+googleAnalytics = "UA-114358546-1"
 
 # Do not build files for websites. Need them? Set to false
 disableKinds=["404","RSS","sitemap"]
