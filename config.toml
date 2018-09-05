@@ -137,7 +137,7 @@ disableKinds=["404","RSS","sitemap"]
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "Data Analyst digging into the realm of data science through machine learning, python, and R.  Over the last couple of years I have been working as an analyst for a number of different organizations and developed a keen interest in machine learning and data science."
+        summary = "Experienced Data Analyst digging into the realm of data science through machine learning, python, and R. Over the last couple of years I have been working as an analyst for a number of different organizations and developed a keen interest in machine learning and data science."
 
     # Experiences section
     [params.experiences]
@@ -149,7 +149,7 @@ disableKinds=["404","RSS","sitemap"]
         position = "Finance Data Analyst"
         dates = "2017 - Present"
         company = "Johns Manville, Denver"
-        details = "<strong>New analyst team within the finance department.</strong> The data analyst team within finance exists to shed the reporting load from the department and to provide advanced data support to Johns Manville finance. My role is to provide a technical background to our data projects to a team of analysts from the finance background. We are working with Tableau to improve and automate a lot of finance deliverables and promote a data-centric culture. Go-to SQL person on the team - Working to introduce Python and R to the mix as well."
+        details = "<strong>New analyst team within the finance department.</strong> The data analyst team within finance exists to shed the reporting load from the department and to provide advanced data support to Johns Manville finance. Arrived on the team to provide a technical perspective to our data projects to a team of analysts from a finance background. We are working with Tableau to improve and automate a lot of finance deliverables and promote a data-centric culture. Go-to SQL person on the team - working to introduce Python and R to the mix as well."
 
         [[params.jobs.list]]
         position = "Data Analyst"
@@ -169,17 +169,17 @@ disableKinds=["404","RSS","sitemap"]
         url = "//github.com/cameronboy"
         tagline = "Currently working on organizing and readme-ing my projects to list here!"
 
-        # [[params.projects.list]]
-        # title = "Simple FAQ Theme for Hugo"
-        # url = "https://github.com/aerohub/hugo-faq-theme"
-        # tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
-        #
-        # [[params.projects.list]]
-        # title = "Hugo Identity"
-        # url = "https://github.com/aerohub/hugo-identity-theme"
-        # tagline = "Little profile/card-style template for Hugo."
-        #
-        # [[params.projects.list]]
+        [[params.projects.list]]
+        title = "Site Response Monitoring"
+        url = "https://github.com/cameronboy/site_response_monitoring"
+        tagline = "A python script to test bandwidth to popular content providers and log to Google sheets."
+        
+        [[params.projects.list]]
+        title = "Hugo Identity"
+        url = "https://github.com/cameronboy/DLND-P1/blob/master/Neural%20Network%20-%20Bike%20Demand%20Prediction.ipynb"
+        tagline = "A vanilla neural network implemented in pure `numpy` to predict bike sharing demand."
+        
+        [[params.projects.list]]
         # title = "Orbit"
         # url = "https://github.com/aerohub/hugo-orbit-theme"
         # tagline = "Hugo Resume/CV Theme for Developers."
