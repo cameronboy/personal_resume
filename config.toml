@@ -137,7 +137,7 @@ disableKinds=["404","RSS","sitemap"]
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "Experienced Data Analyst digging into the realm of data science through machine learning, python, and R. Over the last couple of years I have been working as an analyst for a number of different organizations and developed a keen interest in machine learning and data science."
+        summary = "Experienced Data Analyst just looking to solve problems with data. Digging into the realm of data science through machine learning, python, and R. Over the last couple of years I have been working as an analyst for a number of different organizations and developed a keen interest in machine learning and data science."
 
     # Experiences section
     [params.experiences]
@@ -165,17 +165,12 @@ disableKinds=["404","RSS","sitemap"]
         intro = "<strong>Some of the side projects I am working on in my spare time</strong>"
 
         [[params.projects.list]]
-        title = "Github Page"
-        url = "//github.com/cameronboy"
-        tagline = "Currently working on organizing and readme-ing my projects to list here!"
-
-        [[params.projects.list]]
         title = "Site Response Monitoring"
         url = "https://github.com/cameronboy/site_response_monitoring"
         tagline = "A python script to test bandwidth to popular content providers and log to Google sheets."
         
         [[params.projects.list]]
-        title = "Hugo Identity"
+        title = "Neural Network in pure numpy - Udacity project"
         url = "https://github.com/cameronboy/DLND-P1/blob/master/Neural%20Network%20-%20Bike%20Demand%20Prediction.ipynb"
         tagline = "A vanilla neural network implemented in pure `numpy` to predict bike sharing demand."
         
