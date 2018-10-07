@@ -137,7 +137,7 @@ disableKinds=["404","RSS","sitemap"]
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "Experienced Data Analyst just looking to solve problems with data. Digging into the realm of data science through machine learning, python, and R. Over the last couple of years I have been working as an analyst for a number of different organizations and developed a keen interest in machine learning and data science."
+        summary = "Experienced Data Analyst using python, R, and other open-source technologies to solve problems with data."
 
     # Experiences section
     [params.experiences]
@@ -149,13 +149,14 @@ disableKinds=["404","RSS","sitemap"]
         position = "Finance Data Analyst"
         dates = "2017 - Present"
         company = "Johns Manville, Denver"
-        details = "<strong>New analyst team within the finance department.</strong> The data analyst team within finance exists to shed the reporting load from the department and to provide advanced data support to Johns Manville finance. Arrived on the team to provide a technical perspective to our data projects to a team of analysts from a finance background. We are working with Tableau to improve and automate a lot of finance deliverables and promote a data-centric culture. Go-to SQL person on the team - working to introduce Python and R to the mix as well."
+        details = "<strong>New analyst team within the finance department.</strong> Our team operates in close contact with the CFO to be the central analytics hub and to provide advanced data & analytics support to Johns Manville finance.\n\n <strong>My Impact:</strong>\n I came on board to provide my technical background to our data projects with SQL support, advanced tableau, and python."
 
         [[params.jobs.list]]
         position = "Data Analyst"
         dates = "2015 - 2017"
         company = "BIWorldwide, Minnesota"
-        details = """With a team that provided multifaceted analytic support to multiple channels of a large, national-telecom client. We were on top of our descriptive analytics game and worked to apply a more systematic approach to analyses to extract deeper information from our data. I mined our hosted blog and ran sentiment analyses with R to shed light on open-eneded participant feedback. I tried out logistic regression to determine the probability of referrals selling, and experimented with clustering on our program population to delve into promotion results and answer why some groups perform better than others. \n\nAlways explored other, external Developed models based on historical performance to predict incentive spend and facilitate fine tuning of sales incentive programs. Integrated R into some of our analyses for both internal and external stakeholders. Final reporting is rendered in HTML with the knitr and flexdashboard packages allowing for great deal of interactivity between the stakeholder and the data for those without Tableau licenses."""
+        details = """With a team that provided multifaceted analytic support to multiple channels of a large, national-telecom client. We were on top of our descriptive analytics game and worked to apply a more systematic approach to analyses to extract deeper information from our data.\n\n<strong>My Impact:</strong>\nI mined our hosted blog and ran sentiment analyses with R to shed light on open-eneded participant feedback.\n I developed a logistic regression mdoel to determine the probability of referrals selling, and experimented with clustering on our program population to delve into promotion results and answer why some groups perform better than others.\n Integrated R into some of our analyses for both internal and external stakeholders. Final reporting is rendered in HTML with the knitr and flexdashboard packages allowing for great deal of interactivity between the stakeholder and the data for those without Tableau licenses."""
+
 
     # Projects section
     [params.projects]
@@ -174,7 +175,7 @@ disableKinds=["404","RSS","sitemap"]
         url = "https://github.com/cameronboy/DLND-P1/blob/master/Neural%20Network%20-%20Bike%20Demand%20Prediction.ipynb"
         tagline = "A vanilla neural network implemented in pure `numpy` to predict bike sharing demand."
         
-        [[params.projects.list]]
+        # [[params.projects.list]]
         # title = "Orbit"
         # url = "https://github.com/aerohub/hugo-orbit-theme"
         # tagline = "Hugo Resume/CV Theme for Developers."
@@ -196,19 +197,21 @@ disableKinds=["404","RSS","sitemap"]
 
         [[params.skills.list]]
         skill = "Python"
-        level = "50%"
+        level = "75%"
 
         [[params.skills.list]]
         skill = "R"
-        level = "50%"
-
-        [[params.skills.list]]
-        skill = "Tidyverse - R"
-        level = "45%"
+        level = "75%"
 
         [[params.skills.list]]
         skill = "Pandas - Python"
-        level = "45%"
+        level = "70%"
+
+        [[params.skills.list]]
+        skill = "Tidyverse - R"
+        level = "70%"
+
+
 
     # Footer section
 
