@@ -133,9 +133,6 @@ disableKinds=["404","RSS","sitemap"]
         interest = "MotoGP"
 
         [[params.interests.list]]
-        interest = "Machine Learning"
-
-        [[params.interests.list]]
         interest = "Strong IPAs"
 
 
@@ -149,7 +146,7 @@ disableKinds=["404","RSS","sitemap"]
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "<strong>An experienced Data Analyst always looking to learn new and creative ways operate.</strong> The last couple years have seen a transition to learning python, R and working through some moocs. <li>[Andrew Ng's machine learning course](https://www.coursera.org/learn/machine-learning)</li> <li>[Udacity's Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning-nanodegree--nd101)</li><li>[Intro & Intermediate R & Python for Data Science](https://datacamp.com)</li>"
+        summary = "Experienced data professional with seasoned expertise in sql, python, aws, airflow."
 
     # Experiences section
     [params.experiences]
@@ -159,41 +156,36 @@ disableKinds=["404","RSS","sitemap"]
 
         [[params.jobs.list]]
         position = "Decision Scientist"
-        dates = "Dec 2018 - Present"
+        dates = "Dec 2018 - Aug 2020"
         company = "Ibotta, Inc"
-        details = """<strong>Our team is the analytical and technical support for our client success teams. Our work aims to provide automated, multifaceted campaign results via a multitude of tools include SQL, Spark, Python, and Apache Airflow.</strong>
-        <li>Compiled campaign meta data via python in varying structures from S3, old Excel files local & Google Drive, and an internal API into one structured data set.</li>
-        <li>Ran k-means clustering algorithm to provide a client with a two mathematically alike cities for a test/control breakout.</li>
-        <li>Addressing continual support requests with adding functionality to our internal python module for rest of the team to use.</li>
-        <li>Provide adhoc support as required from our client success teams.</li>
-        <li>...more to come.</li>"""
+        details = "Our team is the analytical and technical support for our client success teams. Our work provided automated, multifaceted campaign results via a multitude of tools include SQL, Spark, Python, Hive, and Apache Airflow.\n* Authored pyspark/airflow pipeline to calculate program results, storing results in s3.\n*  Technical lead on our AB testing pipeline in object-oriented pyspark and airflow to measure statistical effectiveness of Ibotta platform.\n *  Automated the power analysis to determine optimal control sizes along with stratifying the groups to ensure similar behavior across the treatment & control.\n *  Ported repeated data analysis scripts into our internal python package for reproducibility and version management.\n *  Compiled campaign meta data via python in varying structures from S3, old Excel files local & Google Drive, and an internal API into one structured data set.\n *  Addressing continual support requests with adding functionality to our internal python module for rest of the team to use.\n *  Provide adhoc support as required from our client success teams."
 
 
         [[params.jobs.list]]
         position = "Finance Data Analyst"
         dates = "Aug 2017 - Dec 2018"
         company = "Johns Manville"
-        details = '<strong>I worked to provide a technical background to our data projects with SQL support, advanced tableau, and python on our team within the finance department.</strong> Our team operates in close contact with the CFO to be the central analytics hub and to provide advanced data & analytics support to Johns Manville finance.<li>Introduced python to our team with ETL pipelines to feed our MSSQL database.</li><li>Built a model with keras (tensorflow backend) in python to estimate tax liabilities to bring potential errors to the attention of our tax department thus reducing the possibility of incurring consultant fees.</li><li>Managed analytics projects to completion supporting commercial sales analytics to internal tax reconciliation</li>'
+        details = "I worked to provide a technical background to our data projects with SQL support, advanced tableau, and python on our team within the finance department. Our team operates in close contact with the CFO to be the central analytics hub and to provide advanced data & analytics support to Johns Manville finance.\n* Introduced python to our team with ETL pipelines to feed our MSSQL database.\n * Built a model with keras (tensorflow backend) in python to estimate tax liabilities to bring potential errors to the attention of our tax department thus reducing the possibility of incurring consultant fees.\n* Managed analytics projects to completion supporting commercial sales analytics to internal tax reconciliation"
 
         [[params.jobs.list]]
         position = "Data Analyst"
         dates = "Mar 2015 - Aug 2017"
         company = "BIWorldwide"
-        details = 'With a team that provided multifaceted analytic support for multiple channels of a large, national-telecom client. We were on top of our descriptive analytics game and worked to apply a more systematic approach to analysis to extract deeper information from our data.<li>I mined our hosted blog and ran sentiment analyses with R to shed light on open-eneded participant feedback.</li><li>Developed a logistic regression model to determine the probability of referrals selling, and experimented with clustering on our program population to delve into promotion results and answer why some groups perform better than others.</li><li>Integrated R into some of our analyses for both internal and external stakeholder with final reporting is rendered in HTML with the knitr and flexdashboard packages allowing for great deal of interactivity between the stakeholder and the data for those without Tableau licenses.</li>'
+        details = "With a team that provided multifaceted analytic support for multiple channels of a large, national-telecom client. We were on top of our descriptive analytics game and worked to apply a more systematic approach to analysis to extract deeper information from our data.* I mined our hosted blog and ran sentiment analyses with R to shed light on open-eneded participant feedback.\n * Developed a logistic regression model to determine the probability of referrals selling, and experimented with clustering on our program population to delve into promotion results and answer why some groups perform better than others.\n * Integrated R into some of our analyses for both internal and external stakeholder with final reporting is rendered in HTML with the knitr and flexdashboard packages allowing for great deal of interactivity between the stakeholder and the data for those without Tableau licenses.\n "
 
 
         [[params.jobs.list]]
         position = "Project Coordinator"
         dates = "Sep 2014 - Mar 2015"
         company = "BIWorldwide"
-        details = 'Our team ran and operated the incentive programs for numerous automobile clients through an in-house developed web app, back-end databases and procedures, reporting, and client support.<li>Learned SQL on the job moved all of our excel reporting to SQL saving our monday mornings.</li><li>Support Business Analysts with fielding of participant inquiries in a timely manner.</li><li>Responsible for development and execution of day-to-day sales reporting distributed to the client.</li><li>Complete documentation of database and Website procedures.</li>'
+        details = "Our team ran and operated the incentive programs for numerous automobile clients through an in-house developed web app, back-end databases and procedures, reporting, and client support.* Learned SQL on the job moved all of our excel reporting to SQL saving our monday mornings.\n * Support Business Analysts with fielding of participant inquiries in a timely manner.\n * Responsible for development and execution of day-to-day sales reporting distributed to the client.\n * Complete documentation of database and Website procedures.\n "
 
 
         [[params.jobs.list]]
         position = "Data Analyst"
         dates = "Jun 2013 - Sep 2014"
         company = "AmerisourceBergen"
-        details = '<li>Designed, developed, implemented, and tested new processes and dashboards that improved data analysis and tracking, reduced cost, and improved process effectiveness and accuracy.</li><li>Directly oversaw 10+ of these analysis processes that monitor our performance on compliance contracts valued at millions in quarterly revenue.</li><li>Consulted with end-users on their requirements to drive my report design, development and testing.</li><li>Communicated with our pharmaceutical buyers on actionable steps towards maximizing our inventory position whilst minimizing penalties associated with erratic purchasing activity.</li><li>Conducted mathematical analysis of inventory/service level data to ensure maximum reward payment from our contracted suppliers.</li>'
+        details = "* Designed, developed, implemented, and tested new processes and dashboards that improved data analysis and tracking, reduced cost, and improved process effectiveness and accuracy.\n * Directly oversaw 10+ of these analysis processes that monitor our performance on compliance contracts valued at millions in quarterly revenue.\n * Consulted with end-users on their requirements to drive my report design, development and testing.\n * Communicated with our pharmaceutical buyers on actionable steps towards maximizing our inventory position whilst minimizing penalties associated with erratic purchasing activity.\n * Conducted mathematical analysis of inventory/service level data to ensure maximum reward payment from our contracted suppliers.\n "
 
 
 
@@ -236,25 +228,20 @@ disableKinds=["404","RSS","sitemap"]
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "Tableau"
-        level = "95%"
-
-        [[params.skills.list]]
         skill = "Python"
         level = "75%"
 
         [[params.skills.list]]
-        skill = "R"
+        skill = "aws"
         level = "75%"
 
         [[params.skills.list]]
-        skill = "Pandas - Python"
-        level = "70%"
+        skill = "Airflow"
+        level = "75%"
 
         [[params.skills.list]]
-        skill = "Tidyverse - R"
-        level = "70%"
-
+        skill = "DB Normalization"
+        level = "75%"
 
 
     # Footer section
