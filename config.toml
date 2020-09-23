@@ -146,7 +146,7 @@ disableKinds=["404","RSS","sitemap"]
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "Experienced data professional with experience with advanced SQL, python, aws, airflow, & git/github. Studying for [AWS Solutions Architect Associate](https://aws.amazon.com/certification/certified-solutions-architect-associate/) exam. Complex problem solving is my driving force where I aim to study and understand the problem to the core and build a solution up from there, allowing flexibility for future variances of today's problem."
+        summary = "Experienced data professional with experience with advanced SQL, python, aws, airflow, git/github, and terraform. I strive to advance my knowledge and sphere of understanding. Going to where the areas of complex problem solving opportunity are the greatest; I aim to study and understand the problem to the core and build a solution up from there, allowing flexibility for future variances of today's problem.  Studying for [AWS Solutions Architect Associate](https://aws.amazon.com/certification/certified-solutions-architect-associate/) exam."
 
     # Experiences section
     [params.experiences]
