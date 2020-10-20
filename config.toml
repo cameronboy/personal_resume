@@ -99,8 +99,6 @@ disableKinds=["404","RSS","sitemap"]
         
         
 
-
-
     # Languages section
     [params.language]
         enable = false
@@ -109,14 +107,6 @@ disableKinds=["404","RSS","sitemap"]
         [[params.language.list]]
         language = "English"
         level = "Native"
-
-        [[params.language.list]]
-        language = "French"
-        level = "Professional"
-
-        [[params.language.list]]
-        language = "Russian"
-        level = "Professional"
 
     # Interests section
     [params.interests]
@@ -146,7 +136,7 @@ disableKinds=["404","RSS","sitemap"]
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "Experienced data professional with experience with advanced SQL, python, aws, airflow, git/github, and terraform. I strive to advance my knowledge and sphere of understanding. Going to where the areas of complex problem solving opportunity are the greatest; I aim to study and understand the problem to the core and build a solution up from there, allowing flexibility for future variances of today's problem.  Studying for [AWS Solutions Architect Associate](https://aws.amazon.com/certification/certified-solutions-architect-associate/) exam."
+        summary = "Experienced data professional with experience with advanced SQL, python, aws, airflow, git/github. I strive to advance my knowledge and sphere of understanding. Going to where the areas of complex problem solving opportunity are the greatest; I aim to study and understand the problem to the core and build a solution up from there, allowing flexibility for future variances of today's problem.  Certified [AWS Solutions Architect Associate](https://www.youracclaim.com/badges/cac196a9-d970-46a5-865d-4a62443d2232/public_url)."
 
     # Experiences section
     [params.experiences]
