@@ -38,16 +38,16 @@ disableKinds=["404","RSS","sitemap"]
         enable = true
 
         [[params.contact.list]]
+        class = "resume"
+        icon = "fa-download"
+        url = "https://cameronboy.s3.amazonaws.com/Cameron_Boy_Resume_Ext.docx"
+        title = "Download this Resume"
+
+        [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
         url = "mailto: camerondavidboy@gmail.com"
         title = "email"
-
-        # [[params.contact.list]]
-        # class = "phone"
-        # icon = "fa-phone"
-        # url = "tel:+19526078240"
-        # title = "+19526078240"
 
         [[params.contact.list]]
         class = "website"
@@ -78,6 +78,11 @@ disableKinds=["404","RSS","sitemap"]
         enable = true
         title = "Education"
 
+        
+        [[params.education.list]]
+        degree = ""
+        college = "Dual Major:"
+
         [[params.education.list]]
         degree = "BSc in Finance"
         college = "University of Minnesota"
@@ -88,15 +93,6 @@ disableKinds=["404","RSS","sitemap"]
         college = "University of Minnesota"
         dates = "2009 - 2013"
 
-        [[params.education.list]]
-        degree = "Udacity"
-
-        [[params.education.list]]
-        degree = "Coursera"
-
-        [[params.education.list]]
-        degree = "DataCamp"
-        
         
 
     # Languages section
