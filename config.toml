@@ -149,7 +149,8 @@ disableKinds=["404","RSS","sitemap"]
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "<strong>An experienced Data Analyst always looking to learn new and creative ways operate.</strong> The last couple years have seen a transition to learning python, R and working through some moocs. <li>[Andrew Ng's machine learning course](https://www.coursera.org/learn/machine-learning)</li> <li>[Udacity's Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning-nanodegree--nd101)</li><li>[Intro & Intermediate R & Python for Data Science](https://datacamp.com)</li>"
+        summary = """<strong>An experienced Data Analyst always looking to learn new and creative ways operate.</strong> The last couple years have seen a transition to learning python, R and working through some moocs/certifications.
+        <li>[AWS Soluations Architect](https://www.youracclaim.com/badges/cac196a9-d970-46a5-865d-4a62443d2232)</li><li>[Andrew Ng's machine learning course](https://www.coursera.org/learn/machine-learning)</li> <li>[Udacity's Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning-nanodegree--nd101)</li><li>[Intro & Intermediate R & Python for Data Science](https://datacamp.com)</li>"""
 
     # Experiences section
     [params.experiences]
@@ -158,15 +159,33 @@ disableKinds=["404","RSS","sitemap"]
         title = "Experience"
 
         [[params.jobs.list]]
+        position = "Data Engineer"
+        dates = "Dec 2020 - Present"
+        company = "Charter Communications"
+        details = """<strong>Quantifying the user experience across our self service product portals.</strong>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        """
+
+        [[params.jobs.list]]
+        position = "Sobattical"
+        dates = "August 2020 - December 2020"
+        details = """Took a bit of time off to focus on career developent & gain my AWS Solutions Architect certification. <br></br>"""
+
+        [[params.jobs.list]]
         position = "Decision Scientist"
-        dates = "Dec 2018 - Present"
+        dates = "Dec 2018 - August 2020"
         company = "Ibotta, Inc"
         details = """<strong>Our team is the analytical and technical support for our client success teams. Our work aims to provide automated, multifaceted campaign results via a multitude of tools include SQL, Spark, Python, and Apache Airflow.</strong>
         <li>Compiled campaign meta data via python in varying structures from S3, old Excel files local & Google Drive, and an internal API into one structured data set.</li>
+        <li>Ported a manual recap process from local R scripts & SQL queries to a fully automated pyspark pipeline in Airflow.</li>
         <li>Ran k-means clustering algorithm to provide a client with a two mathematically alike cities for a test/control breakout.</li>
-        <li>Addressing continual support requests with adding functionality to our internal python module for rest of the team to use.</li>
-        <li>Provide adhoc support as required from our client success teams.</li>
-        <li>...more to come.</li>"""
+        <li>Addressed continual support requests with adding functionality to our internal python module for rest of the team to use.</li>
+        <li>Provided adhoc support as required from our client success teams.</li>"""
 
 
         [[params.jobs.list]]
