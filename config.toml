@@ -41,7 +41,7 @@ disableKinds=["404","RSS","sitemap"]
         class = "resume"
         icon = "fa-download"
         url = "https://cameronboy.s3.amazonaws.com/Cameron_Boy_Resume.docx"
-        title = "Download this Resume"
+        title = "Download this resume"
 
         [[params.contact.list]]
         class = "email"
