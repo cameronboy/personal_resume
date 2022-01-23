@@ -30,7 +30,7 @@ disableKinds=["404","RSS","sitemap"]
     # Profile section
     [params.profile]
         name = "Cameron Boy"
-        tagline = "Data Nerd; Python, R enthusiast"
+        tagline = "Data Nerd; Python & R enthusiast"
         avatar = "profile.png"
 
     # Contact section
@@ -78,7 +78,6 @@ disableKinds=["404","RSS","sitemap"]
         enable = true
         title = "Education"
 
-        
         [[params.education.list]]
         degree = ""
         college = "Dual Major:"
@@ -132,8 +131,16 @@ disableKinds=["404","RSS","sitemap"]
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = """<strong>An experienced Data Analyst always looking to learn new and creative ways operate.</strong> The last couple years have seen a transition to learning python, R and working through some moocs/certifications.
-        <li>[AWS Soluations Architect](https://www.youracclaim.com/badges/cac196a9-d970-46a5-865d-4a62443d2232)</li><li>[Andrew Ng's machine learning course](https://www.coursera.org/learn/machine-learning)</li> <li>[Udacity's Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning-nanodegree--nd101)</li><li>[Intro & Intermediate R & Python for Data Science](https://datacamp.com)</li>"""
+        summary = """Experience data professional always looking to learn new and creative ways operate. The last couple years have seen a transition from heavy use in python for statistical results work to data engineer. All this is through the help of learning some key topics along way.
+         - [AWS](https://www.youracclaim.com/badges/cac196a9-d970-46a5-865d-4a62443d2232)
+         - [machine learning](https://www.coursera.org/learn/machine-learning)
+         - [deep learning](https://www.udacity.com/course/deep-learning-nanodegree--nd101)
+         - [general data science](https://datacamp.com)
+         - [data/web scraping](https://github.com/cameronboy/motogp-analysis)
+         ...to name a few.
+        \n
+        \n While I don't claim to have high expertise in any of these specialtes, they have all helped my understanding of data, manipualating it, and recognizing its value.
+        """
 
     # Experiences section
     [params.experiences]
@@ -145,50 +152,57 @@ disableKinds=["404","RSS","sitemap"]
         position = "Data Engineer"
         dates = "Dec 2020 - Present"
         company = "Charter Communications"
-        details = """<strong>Quantifying the user experience across our self service product portals.</strong>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        details = """Our team is reponsible for quantifying the user experience across our self service product portals. `SQL` `hiveQL` `presto` `aws` `terraform` `git`
+        \n - Calculate the user experience on Charters account portals through measuring api responses, page loads, and other custom metrics (terms) depending on the feature we're measuring performance for. These terms are scaled between `0` and `1`, weight averaged & summed -- giving product developers & owners a concise, relatable number to compare relative to past performance & other features directly.
+        \n - Charter captures > 160M events per day, ~140M of them are events relevent to our pipelines, requiring forethought on appropriate index field usage and other efficinet data operations: temp-tables, CTEs, aws Athena (presto) or hive (adhoc cluster or standalone cluster).
+        \n - Maintain ETL pipelines that utilize HiveQL run on aws-emr clusters through scheduled aws-coordinators to ensure our pre-aggregations are complete before further aggregations are started.
+        \n - Pipeline aws infrastructure is defined in terraform modules allowing us to only worry about any job-specific alterations while keeping best-practices regarding tagging/permissions/fleet management etc up-todate through inheritance of common modules managed by our aws platform team.
+        \n - Templated our pipelines to allow for single-day runs or backfilling with addition of one additional parameter. Updates to gitlab CI/CD pipeline, shell script, and the hiveQL were required. This saves ~ 20 - 40 minutes on average every time a backfill for reprocessing is required.
         """
 
         [[params.jobs.list]]
-        position = "Sobattical"
+        position = "Career skills upgrade"
         dates = "August 2020 - December 2020"
-        details = """Took a bit of time off to focus on career developent & gain my AWS Solutions Architect certification. <br></br>"""
+        details = """Time off to focus on career developent & gain AWS Solutions Architect certification."""
 
         [[params.jobs.list]]
         position = "Decision Scientist"
         dates = "Dec 2018 - August 2020"
         company = "Ibotta, Inc"
-        details = """<strong>Our team is the analytical and technical support for our client success teams. Our work aims to provide automated, multifaceted campaign results via a multitude of tools include SQL, Spark, Python, and Apache Airflow.</strong>
-        <li>Compiled campaign meta data via python in varying structures from S3, old Excel files local & Google Drive, and an internal API into one structured data set.</li>
-        <li>Ported a manual recap process from local R scripts & SQL queries to a fully automated pyspark pipeline in Airflow.</li>
-        <li>Ran k-means clustering algorithm to provide a client with a two mathematically alike cities for a test/control breakout.</li>
-        <li>Addressed continual support requests with adding functionality to our internal python module for rest of the team to use.</li>
-        <li>Provided adhoc support as required from our client success teams.</li>"""
+        details = """Our team was the analytical and technical support for our client success teams. Our work aims to provide automated, multifaceted campaign results via a multitude of tools include SQL, Spark, Python, and Apache Airflow. `python` `pyspark` `airflow` `presto` `git` `test/holdout audiences`
+        \n * Authored pyspark/airflow ETL pipeline to calculate program results, storing results in s3 for nightly ingestion to our snowflake datastore feeding looker dasbhoards & explores.
+        \n * Technical lead on our AB testing pipeline in object-oriented pyspark and airflow to measure statistical effectiveness of Ibotta platform.
+        \n * Query optimization liason for our team, consulting with our team on efficient SQL structure and operations to help reduce run time and compute resources.
+        \n * Automated the power analysis to determine optimal control sizes along with stratifying the groups to ensure similar behavior across the treatment & control.
+        \n * Ported repeated data analysis scripts into our internal python package for reproducibility and version control.
+        \n * Addressed continual support requests with adding functionality to our internal python module for rest of the team to use."""
 
 
         [[params.jobs.list]]
         position = "Finance Data Analyst"
         dates = "Aug 2017 - Dec 2018"
         company = "Johns Manville"
-        details = "I worked to provide a technical background to our data projects with SQL support, advanced tableau, and python on our team within the finance department. Our team operates in close contact with the CFO to be the central analytics hub and to provide advanced data & analytics support to Johns Manville finance.\n* Introduced python to our team with ETL pipelines to feed our MSSQL database.\n * Built a model with keras (tensorflow backend) in python to estimate tax liabilities to bring potential errors to the attention of our tax department thus reducing the possibility of incurring consultant fees.\n* Managed analytics projects to completion supporting commercial sales analytics to internal tax reconciliation"
+        details = """I worked to provide a technical background to our data projects with SQL support, advanced tableau, and python on our team within the finance department. Our team operated in close contact with the CFO to be the central analytics hub and to provide advanced data & analytics support to Johns Manville finance. `SQL` `Tableau` `python` `requirements-gathering`
+        \n* Introduced python to our team with ETL pipelines to feed our MSSQL database.
+        \n * Built a model with keras (tensorflow backend) in python to estimate tax liabilities to bring potential errors to the attention of our tax department thus reducing the possibility of incurring consultant fees.
+        \n* Managed analytics projects to completion supporting commercial sales analytics to internal tax reconciliation"""
 
         [[params.jobs.list]]
         position = "Data Analyst"
         dates = "Mar 2015 - Aug 2017"
         company = "BIWorldwide"
-        details = "With a team that provided multifaceted analytic support for multiple channels of a large, national-telecom client. We were on top of our descriptive analytics game and worked to apply a more systematic approach to analysis to extract deeper information from our data.* I mined our hosted blog and ran sentiment analyses with R to shed light on open-eneded participant feedback.\n * Developed a logistic regression model to determine the probability of referrals selling, and experimented with clustering on our program population to delve into promotion results and answer why some groups perform better than others.\n * Integrated R into some of our analyses for both internal and external stakeholder with final reporting is rendered in HTML with the knitr and flexdashboard packages allowing for great deal of interactivity between the stakeholder and the data for those without Tableau licenses.\n"
+        details = """With a team that provided multifaceted analytic support for multiple channels of a large, national-telecom client. We were on top of our descriptive analytics game and worked to apply a more systematic approach to analysis to extract deeper information from our data. 
+        \n `SQL` `RStats` `Tableau` `PowerPivot` `requirements-gathering` `data-communication`
+        \n * Mined our hosted blog and ran sentiment analyses with R to shed light on open-eneded participant feedback.
+        \n * Developed a logistic regression model to determine the probability of referrals selling, and experimented with clustering on our program population to delve into promotion results and answer why some groups perform better than others.
+        \n * Integrated R into some of our analyses for both internal and external stakeholder with final reporting is rendered in HTML with the knitr and flexdashboard packages allowing for great deal of interactivity between the stakeholder and the data for those without Tableau licenses."""
 
 
         [[params.jobs.list]]
         position = "Project Coordinator"
         dates = "Sep 2014 - Mar 2015"
         company = "BIWorldwide"
-        details = "Our team ran and operated the incentive programs for numerous automobile clients through an in-house developed web app, back-end databases and procedures, reporting, and client support.* Learned SQL on the job moved all of our excel reporting to SQL saving our monday mornings.\n * Support Business Analysts with fielding of participant inquiries in a timely manner.\n * Responsible for development and execution of day-to-day sales reporting distributed to the client.\n * Complete documentation of database and Website procedures.\n "
+        details = "Our team ran and operated the incentive programs for numerous automobile clients through an in-house developed web app, back-end databases and procedures, reporting, and client support.\n * Learned SQL on the job and ported all of our excel reports to SQL, saving our monday mornings.\n * Support Business Analysts with fielding of participant inquiries in a timely manner.\n * Responsible for development and execution of day-to-day sales reporting distributed to the client.\n * Complete documentation of database and Website procedures.\n "
 
 
         [[params.jobs.list]]
@@ -204,8 +218,14 @@ disableKinds=["404","RSS","sitemap"]
         enable = true
         icon = "fa-archive"
         title = "Projects"
-        intro = "<strong>Some of the side projects I am working on in my spare time</strong>"
+        intro = "#### Some side projects worked on throughout free time"
 
+        [[params.projects.list]]
+        title = "MotoGP Data"
+        url = "https://github.com/cameronboy/motogp-analysis"
+        tagline = "Dorna publishes MotoGP results lap-by-lap in highly formatted PDFs. I want to take that data and put it in a useable analysis format"
+
+        
         [[params.projects.list]]
         title = "Site Response Monitoring"
         url = "https://github.com/cameronboy/site_response_monitoring"
@@ -233,13 +253,13 @@ disableKinds=["404","RSS","sitemap"]
 
     # Skills section
     [params.skills]
-        enable = true
+        enable = false
         icon = "fa-rocket"
-        title = "Skills & Proficiency"
+        title = "Skills & Proficienc"
 
         [[params.skills.list]]
         skill = "Python"
-        level = "75%"
+        level = "90%"
 
         [[params.skills.list]]
         skill = "aws"
