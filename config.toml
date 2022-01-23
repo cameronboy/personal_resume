@@ -40,7 +40,7 @@ disableKinds=["404","RSS","sitemap"]
         [[params.contact.list]]
         class = "resume"
         icon = "fa-download"
-        url = "https://cameronboy.s3.amazonaws.com/Cameron_Boy_Resume_Ext.docx"
+        url = "https://cameronboy.s3.amazonaws.com/Cameron_Boy_Resume.docx"
         title = "Download this Resume"
 
         [[params.contact.list]]
@@ -131,15 +131,7 @@ disableKinds=["404","RSS","sitemap"]
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = """Experience data professional always looking to learn new and creative ways operate. The last couple years have seen a transition from heavy use in python for statistical results work to data engineer. All this is through the help of learning some key topics along way.
-         - [AWS](https://www.youracclaim.com/badges/cac196a9-d970-46a5-865d-4a62443d2232)
-         - [machine learning](https://www.coursera.org/learn/machine-learning)
-         - [deep learning](https://www.udacity.com/course/deep-learning-nanodegree--nd101)
-         - [general data science](https://datacamp.com)
-         - [data/web scraping](https://github.com/cameronboy/motogp-analysis)
-         ...to name a few.
-        \n
-        \n While I don't claim to have high expertise in any of these specialtes, they have all helped my understanding of data, manipualating it, and recognizing its value.
+        summary = """Experienced data professional always looking to learn new and creative ways operate. The last couple years have seen a transition from heavy use in python for statistical results work to data engineer. All this to help round-out my knowledge and capabilities.
         """
 
     # Experiences section
@@ -152,18 +144,18 @@ disableKinds=["404","RSS","sitemap"]
         position = "Data Engineer"
         dates = "Dec 2020 - Present"
         company = "Charter Communications"
-        details = """Our team is reponsible for quantifying the user experience across our self service product portals. `SQL` `hiveQL` `presto` `aws` `terraform` `git`
+        details = """Our team is responsible for quantifying the user experience across our self-service product portals. `SQL` `hiveQL` `presto` `aws` `terraform` `git`
         \n - Calculate the user experience on Charters account portals through measuring api responses, page loads, and other custom metrics (terms) depending on the feature we're measuring performance for. These terms are scaled between `0` and `1`, weight averaged & summed -- giving product developers & owners a concise, relatable number to compare relative to past performance & other features directly.
-        \n - Charter captures > 160M events per day, ~140M of them are events relevent to our pipelines, requiring forethought on appropriate index field usage and other efficinet data operations: temp-tables, CTEs, aws Athena (presto) or hive (adhoc cluster or standalone cluster).
+        \n - Charter captures > 160M events per day, ~140M of them are events relevant to our pipelines, requiring forethought on appropriate index field usage and other efficinet data operations: temp-tables, CTEs, aws Athena (presto) or hive (adhoc cluster or standalone cluster).
         \n - Maintain ETL pipelines that utilize HiveQL run on aws-emr clusters through scheduled aws-coordinators to ensure our pre-aggregations are complete before further aggregations are started.
-        \n - Pipeline aws infrastructure is defined in terraform modules allowing us to only worry about any job-specific alterations while keeping best-practices regarding tagging/permissions/fleet management etc up-todate through inheritance of common modules managed by our aws platform team.
-        \n - Templated our pipelines to allow for single-day runs or backfilling with addition of one additional parameter. Updates to gitlab CI/CD pipeline, shell script, and the hiveQL were required. This saves ~ 20 - 40 minutes on average every time a backfill for reprocessing is required.
+        \n - Pipeline aws infrastructure is defined in terraform modules allowing us to only worry about any job-specific alterations while keeping best-practices regarding tagging/permissions/fleet management etc up to date through inheritance of common modules managed by our aws platform team.
+        \n - Templated our pipelines to allow for single-day runs or back filling with addition of one additional parameter. Updates to gitlab CI/CD pipeline, shell script, and the hiveQL were required. This enhancement saves ~ 20 - 40 minutes on average every time a backfill for reprocessing is required.
         """
 
         [[params.jobs.list]]
         position = "Career skills upgrade"
         dates = "August 2020 - December 2020"
-        details = """Time off to focus on career developent & gain AWS Solutions Architect certification."""
+        details = """Time off to focus on career development & gain AWS Solutions Architect certification."""
 
         [[params.jobs.list]]
         position = "Decision Scientist"
