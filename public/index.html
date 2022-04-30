@@ -4,7 +4,7 @@
  <html lang="en"> 
 
 <head>
-	<meta name="generator" content="Hugo 0.40" />
+	<meta name="generator" content="Hugo 0.91.2" />
         <title>Cameron Boy Info</title>
     
     <meta charset="utf-8">
@@ -24,12 +24,16 @@
 	
     
 	
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-114358546-1', 'auto');
-ga('send', 'pageview');
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-114358546-1', 'auto');
+	
+	ga('send', 'pageview');
+}
 </script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
 
 
 </head>
@@ -52,7 +56,7 @@ ga('send', 'pageview');
 		            <div class="contact-container container-block">
                 <ul class="list-unstyled contact-list">
 				
-                    <li class="resume"><i class="fa fa-download"></i><a href="https://cameronboy.s3.amazonaws.com/Cameron_Boy_Resume.docx">Download this Resume</a></li>
+                    <li class="resume"><i class="fa fa-download"></i><a href="https://cameronboy.s3.amazonaws.com/Cameron_Boy_Resume.docx">Download this resume</a></li>
 				
                     <li class="email"><i class="fa fa-envelope"></i><a href="mailto:%20camerondavidboy@gmail.com">email</a></li>
 				
@@ -137,24 +141,46 @@ ga('send', 'pageview');
                 <div class="item">
                     <div class="meta">
                         <div class="upper-row">
+                            <h3 class="job-title">Data Scientist</h3>
+                            <div class="time">April 2022 - Present</div>
+                        </div>
+                        <div class="company">BI Worldwide</div>
+                    </div>
+                    <div class="details">
+                        <p><p>First data science function within our data group to make sense of our unstructured data along with structured data to better support client needs and tap into small, incremental improvements in performance.</p>
+<ul>
+<li>&hellip; more to come</li>
+</ul>
+</p>
+                    </div>
+                </div>
+				
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
                             <h3 class="job-title">Data Engineer</h3>
-                            <div class="time">Dec 2020 - Present</div>
+                            <div class="time">December 2020 - April 2022</div>
                         </div>
                         <div class="company">Charter Communications</div>
                     </div>
                     <div class="details">
                         <p><p>Our team is responsible for quantifying the user experience across our self-service product portals. <code>SQL</code> <code>hiveQL</code> <code>presto</code> <code>aws</code> <code>terraform</code> <code>git</code></p>
-
 <ul>
-<li><p>Calculate the user experience on Charters account portals through measuring api responses, page loads, and other custom metrics (terms) depending on the feature we&rsquo;re measuring performance for. These terms are scaled between <code>0</code> and <code>1</code>, weight averaged &amp; summed &ndash; giving product developers &amp; owners a concise, relatable number to compare relative to past performance &amp; other features directly.</p></li>
-
-<li><p>Charter captures &gt; 160M events per day, ~140M of them are events relevant to our pipelines, requiring forethought on appropriate index field usage and other efficinet data operations: temp-tables, CTEs, aws Athena (presto) or hive (adhoc cluster or standalone cluster).</p></li>
-
-<li><p>Maintain ETL pipelines that utilize HiveQL run on aws-emr clusters through scheduled aws-coordinators to ensure our pre-aggregations are complete before further aggregations are started.</p></li>
-
-<li><p>Pipeline aws infrastructure is defined in terraform modules allowing us to only worry about any job-specific alterations while keeping best-practices regarding tagging/permissions/fleet management etc up to date through inheritance of common modules managed by our aws platform team.</p></li>
-
-<li><p>Templated our pipelines to allow for single-day runs or back filling with addition of one additional parameter. Updates to gitlab CI/CD pipeline, shell script, and the hiveQL were required. This enhancement saves ~ 20 - 40 minutes on average every time a backfill for reprocessing is required.</p></li>
+<li>
+<p>Calculate the user experience on Charters account portals through measuring api responses, page loads, and other custom metrics (terms) depending on the feature we&rsquo;re measuring performance for. These terms are scaled between <code>0</code> and <code>1</code>, weight averaged &amp; summed &ndash; giving product developers &amp; owners a concise, relatable number to compare relative to past performance &amp; other features directly.</p>
+</li>
+<li>
+<p>Charter captures &gt; 160M events per day, ~140M of them are events relevant to our pipelines, requiring forethought on appropriate index field usage and other efficient data operations: temp-tables, CTEs, aws Athena (presto) or hive (adhoc cluster or standalone cluster).</p>
+</li>
+<li>
+<p>Maintain ETL pipelines that utilize HiveQL run on aws-emr clusters through scheduled aws-coordinators to ensure our pre-aggregations are complete before further aggregations are started.</p>
+</li>
+<li>
+<p>Pipeline aws infrastructure is defined in terraform modules allowing us to only worry about any job-specific alterations while keeping best-practices regarding tagging/permissions/fleet management etc up to date through inheritance of common modules managed by our aws platform team.</p>
+</li>
+<li>
+<p>Templated our pipelines to allow for single-day runs or back filling with addition of one additional parameter. Updates to gitlab CI/CD pipeline, shell script, and the hiveQL were required. This enhancement saves ~ 20 - 40 minutes on average every time a backfill for reprocessing is required.</p>
+</li>
 </ul>
 </p>
                     </div>
@@ -177,25 +203,31 @@ ga('send', 'pageview');
                     <div class="meta">
                         <div class="upper-row">
                             <h3 class="job-title">Decision Scientist</h3>
-                            <div class="time">Dec 2018 - August 2020</div>
+                            <div class="time">December 2018 - August 2020</div>
                         </div>
                         <div class="company">Ibotta, Inc</div>
                     </div>
                     <div class="details">
                         <p><p>Our team was the analytical and technical support for our client success teams. Our work aims to provide automated, multifaceted campaign results via a multitude of tools include SQL, Spark, Python, and Apache Airflow. <code>python</code> <code>pyspark</code> <code>airflow</code> <code>presto</code> <code>git</code> <code>test/holdout audiences</code></p>
-
 <ul>
-<li><p>Authored pyspark/airflow ETL pipeline to calculate program results, storing results in s3 for nightly ingestion to our snowflake datastore feeding looker dasbhoards &amp; explores.</p></li>
-
-<li><p>Technical lead on our AB testing pipeline in object-oriented pyspark and airflow to measure statistical effectiveness of Ibotta platform.</p></li>
-
-<li><p>Query optimization liason for our team, consulting with our team on efficient SQL structure and operations to help reduce run time and compute resources.</p></li>
-
-<li><p>Automated the power analysis to determine optimal control sizes along with stratifying the groups to ensure similar behavior across the treatment &amp; control.</p></li>
-
-<li><p>Ported repeated data analysis scripts into our internal python package for reproducibility and version control.</p></li>
-
-<li><p>Addressed continual support requests with adding functionality to our internal python module for rest of the team to use.</p></li>
+<li>
+<p>Authored pyspark/airflow ETL pipeline to calculate program results, storing results in s3 for nightly ingestion to our snowflake datastore feeding looker dashboards &amp; explores.</p>
+</li>
+<li>
+<p>Technical lead on our AB testing pipeline in object-oriented pyspark and airflow to measure statistical effectiveness of Ibotta platform.</p>
+</li>
+<li>
+<p>Query optimization liaison for our team, consulting with our team on efficient SQL structure and operations to help reduce run time and compute resources.</p>
+</li>
+<li>
+<p>Automated the power analysis to determine optimal control sizes along with stratifying the groups to ensure similar behavior across the treatment &amp; control.</p>
+</li>
+<li>
+<p>Ported repeated data analysis scripts into our internal python package for reproducibility and version control.</p>
+</li>
+<li>
+<p>Addressed continual support requests with adding functionality to our internal python module for rest of the team to use.</p>
+</li>
 </ul>
 </p>
                     </div>
@@ -205,22 +237,22 @@ ga('send', 'pageview');
                     <div class="meta">
                         <div class="upper-row">
                             <h3 class="job-title">Finance Data Analyst</h3>
-                            <div class="time">Aug 2017 - Dec 2018</div>
+                            <div class="time">August 2017 - December 2018</div>
                         </div>
                         <div class="company">Johns Manville</div>
                     </div>
                     <div class="details">
                         <p><p>I worked to provide a technical background to our data projects with SQL support, advanced tableau, and python on our team within the finance department. Our team operated in close contact with the CFO to be the central analytics hub and to provide advanced data &amp; analytics support to Johns Manville finance. <code>SQL</code> <code>Tableau</code> <code>python</code> <code>requirements-gathering</code></p>
-
 <ul>
-<li><p>Introduced python to our team with ETL pipelines to feed our MSSQL database.</p>
-
-<ul>
-<li>Built a model with keras (tensorflow backend) in python to estimate tax liabilities to bring potential errors to the attention of our tax department thus reducing the possibility of incurring consultant fees.
-<br /></li>
-</ul></li>
-
-<li><p>Managed analytics projects to completion supporting commercial sales analytics to internal tax reconciliation</p></li>
+<li>
+<p>Introduced python to our team with ETL pipelines to feed our MSSQL database.</p>
+</li>
+<li>
+<p>Built a model with keras (tensorflow backend) in python to estimate tax liabilities to bring potential errors to the attention of our tax department thus reducing the possibility of incurring consultant fees.</p>
+</li>
+<li>
+<p>Managed analytics projects to completion supporting commercial sales analytics to internal tax reconciliation</p>
+</li>
 </ul>
 </p>
                     </div>
@@ -230,21 +262,23 @@ ga('send', 'pageview');
                     <div class="meta">
                         <div class="upper-row">
                             <h3 class="job-title">Data Analyst</h3>
-                            <div class="time">Mar 2015 - Aug 2017</div>
+                            <div class="time">March 2015 - August 2017</div>
                         </div>
-                        <div class="company">BIWorldwide</div>
+                        <div class="company">BI Worldwide</div>
                     </div>
                     <div class="details">
                         <p><p>With a team that provided multifaceted analytic support for multiple channels of a large, national-telecom client. We were on top of our descriptive analytics game and worked to apply a more systematic approach to analysis to extract deeper information from our data.</p>
-
 <p><code>SQL</code> <code>RStats</code> <code>Tableau</code> <code>PowerPivot</code> <code>requirements-gathering</code> <code>data-communication</code></p>
-
 <ul>
-<li><p>Mined our hosted blog and ran sentiment analyses with R to shed light on open-eneded participant feedback.</p></li>
-
-<li><p>Developed a logistic regression model to determine the probability of referrals selling, and experimented with clustering on our program population to delve into promotion results and answer why some groups perform better than others.</p></li>
-
-<li><p>Integrated R into some of our analyses for both internal and external stakeholder with final reporting is rendered in HTML with the knitr and flexdashboard packages allowing for great deal of interactivity between the stakeholder and the data for those without Tableau licenses.</p></li>
+<li>
+<p>Mined our hosted blog and ran sentiment analyses with R to shed light on open-ended participant feedback.</p>
+</li>
+<li>
+<p>Developed a logistic regression model to determine the probability of referrals selling, and experimented with clustering on our program population to delve into promotion results and answer why some groups perform better than others.</p>
+</li>
+<li>
+<p>Integrated R into some of our analyses for both internal and external stakeholder with final reporting is rendered in HTML with the knitr and flexdashboard packages allowing for great deal of interactivity between the stakeholder and the data for those without Tableau licenses.</p>
+</li>
 </ul>
 </p>
                     </div>
@@ -254,16 +288,27 @@ ga('send', 'pageview');
                     <div class="meta">
                         <div class="upper-row">
                             <h3 class="job-title">Project Coordinator</h3>
-                            <div class="time">Sep 2014 - Mar 2015</div>
+                            <div class="time">September 2014 - March 2015</div>
                         </div>
-                        <div class="company">BIWorldwide</div>
+                        <div class="company">BI Worldwide</div>
                     </div>
                     <div class="details">
-                        <p>Our team ran and operated the incentive programs for numerous automobile clients through an in-house developed web app, back-end databases and procedures, reporting, and client support.
- * Learned SQL on the job and ported all of our excel reports to SQL, saving our monday mornings.
- * Support Business Analysts with fielding of participant inquiries in a timely manner.
- * Responsible for development and execution of day-to-day sales reporting distributed to the client.
- * Complete documentation of database and Website procedures.</p>
+                        <p><p>Our team ran and operated the incentive programs for numerous automobile clients through an in-house developed web app, back-end databases and procedures, reporting, and client support.</p>
+<ul>
+<li>
+<p>Learned SQL on the job and ported all of our excel reports to SQL, saving our monday mornings.</p>
+</li>
+<li>
+<p>Support Business Analysts with fielding of participant inquiries in a timely manner.</p>
+</li>
+<li>
+<p>Responsible for development and execution of day-to-day sales reporting distributed to the client.</p>
+</li>
+<li>
+<p>Complete documentation of database and Website procedures.</p>
+</li>
+</ul>
+</p>
                     </div>
                 </div>
 				
@@ -271,20 +316,27 @@ ga('send', 'pageview');
                     <div class="meta">
                         <div class="upper-row">
                             <h3 class="job-title">Data Analyst</h3>
-                            <div class="time">Jun 2013 - Sep 2014</div>
+                            <div class="time">June 2013 - September 2014</div>
                         </div>
                         <div class="company">AmerisourceBergen</div>
                     </div>
                     <div class="details">
                         <p><ul>
-<li>Designed, developed, implemented, and tested new processes and dashboards that improved data analysis and tracking, reduced cost, and improved process effectiveness and accuracy.
-
-<ul>
-<li>Directly oversaw 10+ of these analysis processes that monitor our performance on compliance contracts valued at millions in quarterly revenue.</li>
-<li>Consulted with end-users on their requirements to drive my report design, development and testing.</li>
-<li>Communicated with our pharmaceutical buyers on actionable steps towards maximizing our inventory position whilst minimizing penalties associated with erratic purchasing activity.</li>
-<li>Conducted mathematical analysis of inventory/service level data to ensure maximum reward payment from our contracted suppliers.</li>
-</ul></li>
+<li>
+<p>Designed, developed, implemented, and tested new processes and dashboards that improved data analysis and tracking, reduced cost, and improved process effectiveness and accuracy.</p>
+</li>
+<li>
+<p>Directly oversaw10+ of these analysis processes that monitor our performance on compliance contracts valued at millions in quarterly revenue.</p>
+</li>
+<li>
+<p>Consulted with end-users on their requirements to drive my report design, development and testing.</p>
+</li>
+<li>
+<p>Communicated with our pharmaceutical buyers on actionable steps towards maximizing our inventory position whilst minimizing penalties associated with erratic purchasing activity.</p>
+</li>
+<li>
+<p>Conducted mathematical analysis of inventory/service level data to ensure maximum reward payment from our contracted suppliers.</p>
+</li>
 </ul>
 </p>
                     </div>
