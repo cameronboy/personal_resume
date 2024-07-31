@@ -85,12 +85,10 @@ disableKinds=["404","RSS","sitemap"]
         [[params.education.list]]
         degree = "BSc in Finance"
         college = "University of Minnesota"
-        dates = "2009 - 2013"
 
         [[params.education.list]]
         degree = "BSc in MIS"
         college = "University of Minnesota"
-        dates = "2009 - 2013"
 
         
 
